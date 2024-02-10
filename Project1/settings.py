@@ -154,8 +154,8 @@ ACCOUNT_EMAIL_REQUIRED = True #new
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' #new
 EMAIL_HOST = 'smtp.gmail.com' #new
 EMAIL_PORT = 587 #new
-EMAIL_HOST_USER = 'fathimathasneem615@gmail.com'
-EMAIL_HOST_PASSWORD = 'nsds ncni xwup nsla'
+EMAIL_HOST_USER = 'email'
+EMAIL_HOST_PASSWORD = 'password'
 EMAIL_USE_TLS = True #new
 
 MEDIA_ROOT=os.path.join(BASE_DIR,'media/')

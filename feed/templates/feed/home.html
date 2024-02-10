@@ -1,0 +1,13 @@
+{%extends "base.html"%}
+{% load thumbnail %}
+{%block title%}home page{%endblock%}
+{%block body%}
+
+    <div id="posts-container">
+    {%for post in posts%}
+        {% include 'includes/post.html' with post=post show_detail_view=True%}
+    {%endfor%}
+    </div>
+
+
+{%endblock%}

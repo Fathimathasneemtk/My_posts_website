@@ -1,0 +1,4 @@
+django
+sorl-thumbnail
+django-allauth
+Pillow
